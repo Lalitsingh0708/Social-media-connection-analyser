@@ -130,21 +130,21 @@ export class SocialNetwork {
 
   loadDemoData() {
     const users = [
-      'Alice', 'Bob', 'Charlie', 'Diana', 'Eve',
-      'Frank', 'Grace', 'Henry', 'Iris', 'Jack',
-      'Karen', 'Liam',
+      'Lalit', 'Anuj', 'Ankit', 'Adarsh', 'Prashant',
+      'Prince', 'Aniket', 'Harpal', 'Raj', 'Priyanka',
+      'Aarti', 'Kiran', 'Abhishek',
     ];
     users.forEach(u => this.addUser(u));
 
     const friendships = [
-      ['Alice', 'Bob'],   ['Alice', 'Charlie'], ['Alice', 'Diana'],
-      ['Bob', 'Eve'],     ['Bob', 'Frank'],
-      ['Charlie', 'Grace'], ['Charlie', 'Henry'],
-      ['Diana', 'Iris'],  ['Diana', 'Jack'],
-      ['Eve', 'Frank'],   ['Frank', 'Grace'],
-      ['Grace', 'Henry'], ['Henry', 'Iris'],
-      ['Iris', 'Jack'],   ['Jack', 'Karen'],
-      ['Karen', 'Liam'],  ['Liam', 'Alice'],
+      ['Lalit', 'Anuj'],      ['Lalit', 'Ankit'],     ['Lalit', 'Adarsh'],
+      ['Anuj', 'Prashant'],   ['Anuj', 'Prince'],
+      ['Ankit', 'Aniket'],    ['Ankit', 'Harpal'],
+      ['Adarsh', 'Raj'],      ['Adarsh', 'Priyanka'],
+      ['Prashant', 'Prince'], ['Prince', 'Aniket'],
+      ['Aniket', 'Harpal'],   ['Harpal', 'Raj'],
+      ['Raj', 'Priyanka'],    ['Priyanka', 'Aarti'],
+      ['Aarti', 'Kiran'],     ['Kiran', 'Lalit'],
     ];
     friendships.forEach(([u, v]) => this.addFriend(u, v));
   }
