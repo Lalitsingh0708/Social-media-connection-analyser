@@ -1,0 +1,18 @@
+# Edges (format: UserA,UserB — one per line, # = comment)
+Alice,Bob
+Alice,Charlie
+Alice,Diana
+Bob,Eve
+Bob,Frank
+Charlie,Grace
+Charlie,Henry
+Diana,Iris
+Diana,Jack
+Eve,Frank
+Frank,Grace
+Grace,Henry
+Henry,Iris
+Iris,Jack
+Jack,Karen
+Karen,Liam
+Liam,Alice

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "social-network-graph-analyzer",
+  "builds": [
+    {
+      "src": "web/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/web/$1"
+    }
+  ]
+}
